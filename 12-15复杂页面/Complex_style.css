@@ -1,0 +1,119 @@
+.container{
+    width:100%;
+    
+    overflow: auto;
+    /* border:1px solid red; */
+}
+.div_left{
+    height: 100%;
+    width:100px;
+    background:#1d2531;
+    float: left;
+}
+.btn_1,.btn_2,.btn_3,.btn_4{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:0;
+    margin:10px 20px;
+}
+.btn_1{
+    background-image: url(Item-1.png);
+}
+.btn_2{
+    background-image: url(Item-2.png);
+}
+.btn_3{
+    background-image: url(Item-3.png);
+}
+.btn_4{
+    background-image: url(Add-App.png);
+}
+.div_bottom{
+   position: absolute;
+   bottom: 10px;
+}
+.btn_5,.btn_6{
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    border:0px;
+    margin-bottom:20px;
+}
+.btn_5{
+    background-image: url(Grid.png);
+    margin-left: 20px;
+}
+.btn_6{
+    background-image: url(Settings.png);
+    margin-left: 20px;
+}
+.div_menu{
+    width:250px;
+    height: 100%;
+    background-color: #222c3c;
+    float: left;
+}
+.div_menu a{
+    color: #5b6779;
+    font-family: Myriad Pro;
+}
+.div_menu li{
+    color:#b7c0cd;
+}
+.menu_4{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+.div_content{
+    /* width: 100%; */
+    /* float: left; */
+    margin-left: 350px;
+    height: 100%;
+    overflow: hidden;
+}
+.cont_head{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #e6e9ec;
+    padding: 5px;
+}
+.p_left{
+    float: left;
+    color:#354052;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.p_center{
+    float:right;
+    margin-right: 50px;
+}
+.p_right{
+    float: right;
+    color:#2399f1;
+    margin-right: 30px;
+}
+.p_right a{
+    color: #b5b5b5;
+}
+.cont_left{
+    width:400px;
+    float: left;
+    display:flex;
+    flex-direction: column;
+}
+.ct_1,.ct_2,.ct_3,.ct_4{
+    border: 1px solid gray;
+    width: 100%;
+    height: 130px;
+    
+}
+.cont_right{
+    border: 1px solid green;
+    margin-left: 400px;
+    height: 100%;
+}
